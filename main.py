@@ -16,7 +16,7 @@ def on_button_pressed_b():
     else:
         písmeno = písmeno + 1
 input.on_button_pressed(Button.B, on_button_pressed_b)
-    
+
 
 def on_logo_event_pressed():
     print(písmeno)
